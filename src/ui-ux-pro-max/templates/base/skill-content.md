@@ -131,12 +131,16 @@ python3 skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain <domain> [-n
 | App interface a11y | `web` | `--domain web "accessibilityLabel touch safe-areas"` |
 | AI prompt / CSS keywords | `prompt` | `--domain prompt "minimalism"` |
 
-### Step 4: Stack Guidelines (React Native)
+### Step 4: Stack Guidelines (React Native / Qt QML)
 
-Get React Native implementation-specific best practices:
+Get implementation-specific best practices for your stack:
 
 ```bash
+# React Native
 python3 skills/ui-ux-pro-max/scripts/search.py "<keyword>" --stack react-native
+
+# Qt QML / C++
+python3 skills/ui-ux-pro-max/scripts/search.py "<keyword>" --stack qt-qml
 ```
 
 ---
@@ -163,6 +167,7 @@ python3 skills/ui-ux-pro-max/scripts/search.py "<keyword>" --stack react-native
 | Stack | Focus |
 |-------|-------|
 | `react-native` | Components, Navigation, Lists |
+| `qt-qml` | QML Components, C++ Integration, Layouts, Animation, Accessibility |
 
 ---
 

@@ -74,6 +74,7 @@ CSV_CONFIG = {
 
 STACK_CONFIG = {
     "react-native": {"file": "stacks/react-native.csv"},
+    "qt-qml": {"file": "stacks/qt-qml.csv"},
 }
 
 # Common columns for all stacks
